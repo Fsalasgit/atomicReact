@@ -29,7 +29,7 @@ const OrganimsPages = () => {
             </section>
             <section className="row mb-5">
 
-                <h3>Organismo Acordeon</h3>
+                <h3>Organismo acordeón</h3>
 
                 <div className="col-4 mt-3">
                     <AcordeonList />
