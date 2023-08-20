@@ -13,14 +13,14 @@ const MoleculesPages = () => {
 
         <article className='container'>
             <div className="row mb-5">
-                <h3>Molécula formulario texto</h3>
+                <h3 className='m-3'>Molécula formulario texto</h3>
                 <section className="col-3">
                     <FormTexts />
 
                 </section>
             </div>
             <div className="row mb-5">
-                <h3>Molécula formulario Email</h3>
+                <h3 className='m-3'>Molécula formulario Email</h3>
 
                 <section className="col-3">
                     <FormEmails />
@@ -28,7 +28,7 @@ const MoleculesPages = () => {
                 </section>
             </div>
             <div className="row mb-5">
-                <h3>Molécula card</h3>
+                <h3 className='m-3'>Molécula card</h3>
 
                 <section className="col-3">
                     <CardMolecule />
@@ -36,7 +36,7 @@ const MoleculesPages = () => {
                 </section>
             </div>
             <div className="row mb-5">
-                <h3>Molécula card</h3>
+                <h3 className='m-3'>Molécula card</h3>
 
                 <section className="col-3">
                     <TableMolecula />
