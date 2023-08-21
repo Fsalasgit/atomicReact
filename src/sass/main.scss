@@ -1,20 +1,12 @@
-
+@import './base/base.scss';
 
 @import "./components/navbarSite.scss";
 @import "./components/footerSite.scss";
+@import "./components/comandosGit.scss";
 
 @import './pages/home.scss';
+@import './pages/gitPages.scss'
 
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-}
-
-body{
-    font-size: 62.5%;
-    font-family: 'Montserrat', sans-serif;
-}
 
