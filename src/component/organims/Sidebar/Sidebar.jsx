@@ -19,9 +19,9 @@ const Sidebar = () => {
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Modulo 1</Accordion.Header>
                         <Accordion.Body>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Intro a react + vite (instalación)</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Consola cmd</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Github </Link>
+                            <Link to="/gitPages" className="list-group-item list-group-item-action bg-light">Git y Github</Link>
+                            <Link to="/console" className="list-group-item list-group-item-action bg-light">Consola - Comandos básicos</Link>
+                            <Link to="#" className="list-group-item list-group-item-action bg-light">React & Vite Js - Instalación de depencias</Link>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">

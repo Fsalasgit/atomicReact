@@ -12,7 +12,7 @@ const NavbarSite = () => {
                 <Navbar.Brand href="/" className='navbarSite__logo'> ARLogo</Navbar.Brand>
                 <Nav className="ms-auto navbarSite__nav">
                   <Nav.Link href="/" className="navbarSite__link">Home</Nav.Link>
-                  <Nav.Link href="#" className="navbarSite__link">Modulo I</Nav.Link>
+                  <Nav.Link href="/gitPages" className="navbarSite__link">Modulo I</Nav.Link>
                   <Nav.Link href="#" className="navbarSite__link">Modulo II</Nav.Link>
                   <Nav.Link href="#" className="navbarSite__link">Modulo III</Nav.Link>
                    
