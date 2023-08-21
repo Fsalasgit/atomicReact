@@ -10,6 +10,7 @@ import NavbarSite from './component/webComponents/NavbarSite';
 import FooterSite from './component/webComponents/footerSite';
 import Home from './pages/Home';
 import GitPage from './pages/gitPage';
+import ReactPage from './pages/ReactPage';
 
 
 
@@ -27,6 +28,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/gitPages' element={<GitPage />} />
+        <Route path='/reactVite' element={<ReactPage />} />
         <Route path='/Atoms' element={<AtomPages />} />
         <Route path='/molecules' element={<MoleculesPages />} />
         <Route path='/organims' element={<OrganimsPages />} />
