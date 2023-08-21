@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 import TemplatePage from './pages/TemplatePage';
 import NavbarSite from './component/webComponents/NavbarSite';
 import FooterSite from './component/webComponents/footerSite';
+import Home from './pages/Home';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <NavbarSite />
 
       <Routes>
+        <Route path='/' element={<Home />} />
         <Route path='/Atoms' element={<AtomPages />} />
         <Route path='/molecules' element={<MoleculesPages />} />
         <Route path='/organims' element={<OrganimsPages />} />
