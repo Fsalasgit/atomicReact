@@ -7,6 +7,7 @@ import './sass/main.scss'
 import { Routes, Route } from 'react-router-dom';
 import TemplatePage from './pages/TemplatePage';
 import NavbarSite from './component/webComponents/NavbarSite';
+import FooterSite from './component/webComponents/footerSite';
 
 
 
@@ -28,9 +29,9 @@ function App() {
         <Route path='/template' element={<TemplatePage />} />
       </Routes>
 
-      
+      <FooterSite />
     
-      <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
 
 <script
   src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
