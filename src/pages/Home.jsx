@@ -1,5 +1,6 @@
 import React from 'react'
 import portadaAtomicReact from '../../public/img/portadaAtomicReact.jpg'
+import ButtonGetStarted from '../component/webComponents/ButtonGetStarted'
 
 const Home = () => {
   return (
@@ -46,7 +47,9 @@ const Home = () => {
                     <li>Metodología BEM</li>
                 </ul>
             </div>
+            <ButtonGetStarted/>   
         </div>
+        
     </div>
     </>
   )
