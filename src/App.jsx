@@ -9,6 +9,8 @@ import TemplatePage from './pages/TemplatePage';
 import NavbarSite from './component/webComponents/NavbarSite';
 import FooterSite from './component/webComponents/footerSite';
 import Home from './pages/Home';
+import GitPage from './pages/gitPage';
+import ReactPage from './pages/ReactPage';
 
 
 
@@ -22,9 +24,11 @@ function App() {
   return (
     <>
       <NavbarSite />
-
+      
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/gitPages' element={<GitPage />} />
+        <Route path='/reactVite' element={<ReactPage />} />
         <Route path='/Atoms' element={<AtomPages />} />
         <Route path='/molecules' element={<MoleculesPages />} />
         <Route path='/organims' element={<OrganimsPages />} />
@@ -34,15 +38,6 @@ function App() {
 
       <FooterSite />
     
-<script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
-
-<script
-  src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
-  crossorigin></script>
-
-<script
-  src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
-  crossorigin></script>
 
     </>
   )
