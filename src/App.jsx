@@ -6,6 +6,7 @@ import OrganimsPages from './pages/OrganimsPages';
 import './sass/main.scss'
 import { Routes, Route } from 'react-router-dom';
 import TemplatePage from './pages/TemplatePage';
+import NavbarSite from './component/webComponents/NavbarSite';
 
 
 
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <>
+      <NavbarSite />
 
       <Routes>
         <Route path='/Atoms' element={<AtomPages />} />
@@ -25,8 +27,18 @@ function App() {
         <Route path='/organims' element={<OrganimsPages />} />
         <Route path='/template' element={<TemplatePage />} />
       </Routes>
-    
+
       
+    
+      <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
+  crossorigin></script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
+  crossorigin></script>
 
     </>
   )
