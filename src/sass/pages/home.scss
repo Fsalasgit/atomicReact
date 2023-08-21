@@ -1,0 +1,42 @@
+.portadaAtomic{
+    height: 80vh;
+    background: url(../../../public/img/portadaAtomicReact.jpg);
+    background-size: cover;
+    background-position: center;
+}   
+.portadaAtomic__tittle{
+    font-weight: 700;
+    margin-top: 2rem;
+    text-align: end;
+    padding-right: 4rem;
+}
+
+.portadaAtomic__p{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    text-indent: 1rem;
+}
+
+.contenido{
+    padding: 2rem;
+}
+
+.contenido__tittle{
+    text-align: center;
+    font-weight: 700;   
+
+}
+
+.contenido__moduleTittle{
+    text-indent: 3rem;
+    font-weight: 500;
+}
+
+.contenido__p{
+    font-size: 1rem;
+}
+
+.contenido__containerList{
+    font-size: 1rem;
+    list-style: none;
+}

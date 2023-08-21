@@ -1,31 +1,22 @@
 import React from 'react'
-import NavbarOrganims from '../component/organims/NavbarOrganims'
+import PlaceHolders from '../component/atoms/PlaceHolders'
+
 
 const TemplatePage = () => {
   return (
     <>
     
     <main className='container'>
-            <div className="row ">
-                <article className="col-3">
-                    <div className="navbar__Template">
-                        <NavbarOrganims />
-                    </div>
-                    <div className="carrouser__Template">
+      <div className="row ">
+          <article className="col-5  border p-2 mt-5">
+              <div className="carrouser__Template p-1">
+  
+                <PlaceHolders />  
+              </div>
 
-        
-                    </div>
-                    <div className="form__Template">
-                    <h1>1</h1>   
-        
-                    </div>
-                    <div className="footer__Template">
-                    <h1>1</h1>   
-        
-                    </div>
-                </article>
-            </div>
-        </main>
+          </article>
+      </div>
+    </main>
     
     
     </>
