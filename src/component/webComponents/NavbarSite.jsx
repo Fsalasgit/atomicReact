@@ -7,7 +7,7 @@ import React from 'react'
 const NavbarSite = () => {
   return (
     <>
-        <Navbar data-bs-theme="dark" className='navbarSite'>
+        <Navbar data-bs-theme="dark" className='navbarSite' sticky="top">
             <Container className='navbarSite__container'>
                 <Navbar.Brand href="#" className='navbarSite__logo'> ARLogo</Navbar.Brand>
                 <Nav className="ms-auto navbarSite__nav">

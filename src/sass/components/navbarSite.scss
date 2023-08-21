@@ -1,6 +1,7 @@
 .navbarSite{
     background-color: rgba(0, 0, 0, 0.867);
-    position: sticky;
+    box-shadow: 0.1rem -0.1rem 0.5rem white inset;
+
 }
 
 .navbarSite__link{
@@ -24,6 +25,6 @@
 }
 
 .navbarSite__link:hover::after {
-  transform: scaleX(1); /* Mostramos el subrayado al hacer hover */
+  transform: scaleX(1); 
 }
 
