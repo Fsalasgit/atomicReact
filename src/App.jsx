@@ -29,6 +29,7 @@ function App() {
         <Route path='/template' element={<TemplatePage />} />
       </Routes>
 
+
       <FooterSite />
     
 <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>

@@ -8,7 +8,7 @@ import Spiners from '../component/atoms/Spiners'
 const AtomPages = () => {
   return (
     <>
-
+        
         <h2 className='text-center'>En esta seccion colocamos los botones</h2>
 
         <section className='container'>
