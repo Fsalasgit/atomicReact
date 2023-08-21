@@ -34,6 +34,18 @@ const ReactPage = () => {
                     <p className='blogContainer__p-small'>si no sabes utilizar la consala t recomiendo leer el siguiente post <a href="#">Link consola</a></p> 
 
                 </article>
+                <article className="col-12">
+                    <h2 className='blogContainer__ArticleTitle'>¿Que es pasa si descargo un proyecto desde github?</h2>
+                    <p className='blogContainer__p'>En el caso de baja un proyecto realizado es necesario luego de clonar el repositorio verificar los siguientes pasos</p>
+                    <ol className='orderlist__container'>
+                        <li>mverte dentro de la carpeta con la consola</li>
+                        <li>Instalar react con: npm install</li>
+                        <li>Monta el servidor con : npm run dev</li>
+                        <li>Copia el link y pegar en el explorador</li>
+                       
+                    </ol>              
+                    
+                </article>
 
             </div>
 
