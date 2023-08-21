@@ -25,7 +25,7 @@ function App() {
       <Sidebar />      
       <Routes>
         <Route path='/gitPages' element={<GitPage />} />
-        <Route path='/reactVite' element={<ReactPage />} />
+        <Route path='/reactVite' element={<ReactPage />} /> 
         <Route path='/Atoms' element={<AtomPages />} />
         <Route path='/molecules' element={<MoleculesPages />} />
         <Route path='/organims' element={<OrganimsPages />} />
