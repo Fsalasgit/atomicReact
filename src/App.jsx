@@ -13,6 +13,7 @@ import Sidebar from './component/organims/Sidebar/Sidebar';
 import Console from './pages/Console';
 import GitPage from './pages/gitPage';
 import ReactPage from './pages/ReactPage';
+import IntroBootstrapPages from './pages/IntroBootstrapPages';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path='/gitPages' element={<GitPage />} />
         <Route path='/reactVite' element={<ReactPage />} /> 
+        <Route path='/introBootsrap' element={<IntroBootstrapPages />} /> 
         <Route path='/Atoms' element={<AtomPages />} />
         <Route path='/molecules' element={<MoleculesPages />} />
         <Route path='/organims' element={<OrganimsPages />} />

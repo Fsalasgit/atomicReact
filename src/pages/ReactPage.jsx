@@ -3,7 +3,7 @@ import React from 'react'
 const ReactPage = () => {
   return (
     <>
-        <main>
+    
         <main className='container blogContainer'>
             <h1 className='blogContainer__tittle'>REACT & VITE JS</h1>
             <div className="row">
@@ -51,7 +51,7 @@ const ReactPage = () => {
 
 
         </main>
-        </main>
+
     </>
   )
 }
