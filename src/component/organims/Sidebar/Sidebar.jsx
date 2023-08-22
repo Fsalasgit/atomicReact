@@ -21,7 +21,7 @@ const Sidebar = () => {
                         <Accordion.Body>
                             <Link to="/gitPages" className="list-group-item list-group-item-action bg-light">Git y Github</Link>
                             <Link to="/console" className="list-group-item list-group-item-action bg-light">Consola - Comandos básicos</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">React & Vite Js - Instalación de depencias</Link>
+                            <Link to="/reactVite" className="list-group-item list-group-item-action bg-light">React & Vite Js - Instalación de depencias</Link>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
