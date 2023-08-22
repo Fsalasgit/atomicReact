@@ -13,6 +13,7 @@ import Sidebar from './component/organims/Sidebar/Sidebar';
 import Console from './pages/Console';
 import GitPage from './pages/gitPage';
 import ReactPage from './pages/ReactPage';
+import IntroBootstrapPages from './pages/IntroBootstrapPages';
 
 function App() {
   const location = useLocation();
