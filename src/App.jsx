@@ -14,6 +14,7 @@ import Console from './pages/Console';
 import GitPage from './pages/gitPage';
 import ReactPage from './pages/ReactPage';
 import IntroBootstrapPages from './pages/IntroBootstrapPages';
+import AtomicDesign from './pages/AtomicDesign';
 
 function App() {
   const location = useLocation();
@@ -30,12 +31,11 @@ function App() {
         <Sidebar />      
         <Routes>
           <Route path='/gitPages' element={<GitPage />} />
-          <Route path='/reactVite' element={<ReactPage />} />
-          <Route path='/Atoms' element={<AtomPages />} />
-          <Route path='/molecules' element={<MoleculesPages />} />
-          <Route path='/organims' element={<OrganimsPages />} />
-          <Route path='/template' element={<TemplatePage />} />
           <Route path='/console' element={<Console />} />
+          <Route path='/reactVite' element={<ReactPage />} />
+          <Route path='/introBootrapt' element={<IntroBootstrapPages />} />
+          <Route path='/atomicDesign' element={<AtomicDesign />} />
+
         </Routes>
         </div>
       )

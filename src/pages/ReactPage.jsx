@@ -35,7 +35,7 @@ const ReactPage = () => {
 
                 </article>
                 <article className="col-12">
-                    <h2 className='blogContainer__ArticleTitle'>¿Que es pasa si descargo un proyecto desde github?</h2>
+                    <h2 className='blogContainer__ArticleTitle'>¿Que pasa si descargo un proyecto desde github?</h2>
                     <p className='blogContainer__p'>En el caso de bajar un proyecto, es necesario luego de clonar el repositorio verificar los siguientes pasos</p>
                     <ol className='orderlist__container'>
                         <li>moverte dentro de la carpeta con la consola</li>
