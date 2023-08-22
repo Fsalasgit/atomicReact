@@ -1,7 +1,7 @@
-body {
-    overflow-x: hidden;
-    /* font-size: 2rem; */
-}
+/* body {
+    overflow-x: hidden; */
+    /* font-size: 2rem;
+} */
 
 .accordion-body {
     padding: 0;
@@ -12,12 +12,13 @@ body {
     font-weight: bold;
 }
 #sidebar-wrapper {
-    min-height: 100vh;
-    margin-left: -15rem;
-    -webkit-transition: margin .25s ease-out;
-    -moz-transition: margin .25s ease-out;
-    -o-transition: margin .25s ease-out;
-    transition: margin .25s ease-out;
+    position: static;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    min-height: 120% !important;
+    width: 300px;
+    padding-top: 100px;
+    scrollbar-width: 0;
 }
 
 #sidebar-wrapper .sidebar-heading {
@@ -29,13 +30,9 @@ body {
     width: 15rem;
 }
 
-#page-content-wrapper {
-    min-width: 100vw;
-}
-
-#wrapper.toggled #sidebar-wrapper {
+/* #wrapper.toggled #sidebar-wrapper {
     margin-left: 0;
-}
+} */
 
 @media (min-width: 768px) {
     #sidebar-wrapper {
