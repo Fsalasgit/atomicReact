@@ -15,6 +15,7 @@ import GitPage from './pages/gitPage';
 import ReactPage from './pages/ReactPage';
 import IntroBootstrapPages from './pages/IntroBootstrapPages';
 import AtomicDesign from './pages/AtomicDesign';
+import BemSass from './pages/BemSass';
 
 function App() {
   const location = useLocation();
@@ -35,7 +36,7 @@ function App() {
           <Route path='/reactVite' element={<ReactPage />} />
           <Route path='/introBootrapt' element={<IntroBootstrapPages />} />
           <Route path='/atomicDesign' element={<AtomicDesign />} />
-
+          <Route path='/bemsass' element={<BemSass />} />
         </Routes>
         </div>
       )

@@ -1,0 +1,22 @@
+.NavComponent {
+    background-color: goldenrod;
+    &__contenedor  {
+        font-size: 1.4rem;
+    }        
+}
+
+.contenedor__Marca {
+    text-decoration: none;
+}
+
+.menu {
+    max-width: 50%;
+    display: flex;
+    justify-content: end;
+    &__link{
+        font-size: 1rem;
+        &--active {
+            font-weight: bold;
+        }
+    }   
+}

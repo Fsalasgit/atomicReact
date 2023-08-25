@@ -28,15 +28,15 @@ const Sidebar = () => {
                         <Accordion.Header>Modulo 2</Accordion.Header>
                         <Accordion.Body>
                             <Link to="#" className="list-group-item list-group-item-action bg-light">Instalación de Bootstrap</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Atomic design resumen</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Atomic design + bootstrap</Link>
+                            <Link to="#" className="list-group-item list-group-item-action bg-light">Extenciones de visual</Link>
+                            <Link to="#" className="list-group-item list-group-item-action bg-light">Atomic design ejemplificado con bootstrap</Link>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                         <Accordion.Header>Modulo 3</Accordion.Header>
                         <Accordion.Body>
                             <Link to="#" className="list-group-item list-group-item-action bg-light">Sass</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Sass + Bemm</Link>
+                            <Link to="/bemsass" className="list-group-item list-group-item-action bg-light">Sass + Bemm</Link>
                             <Link to="#" className="list-group-item list-group-item-action bg-light">Menu 3</Link>
                         </Accordion.Body>
                     </Accordion.Item>
