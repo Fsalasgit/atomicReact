@@ -21,6 +21,7 @@ import Extensiones from './pages/Extensiones';
 import Librerias from './pages/Librerias';
 import SassPage from './pages/SassPage';
 import BemPage from './pages/BemPage';
+import Newsidebar from './component/organims/Sidebar/Newsidebar';
 
 function App() {
   const location = useLocation();
@@ -34,7 +35,7 @@ function App() {
       ) :
       (
         <div className="d-flex" id="wrapper">
-        <Sidebar />      
+                <Newsidebar />
         <Routes>
           <Route path='/gitPages' element={<GitPage />} />
           <Route path='/console' element={<Console />} />
