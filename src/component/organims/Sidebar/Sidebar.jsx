@@ -44,11 +44,6 @@ const Sidebar = () => {
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                         <Accordion.Header>Recomendaciones de cursos y blogs (bibliografia)</Accordion.Header>
-                        <Accordion.Body>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Sass</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Sass + Bemm</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Menu 3</Link>
-                        </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
             </div>
