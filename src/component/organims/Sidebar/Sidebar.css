@@ -15,9 +15,8 @@
     position: static;
     overflow-y: hidden;
     overflow-x: hidden;
-    min-height: 120% !important;
     width: 300px;
-    padding-top: 100px;
+    padding-top: 50px;
     scrollbar-width: 0;
 }
 
