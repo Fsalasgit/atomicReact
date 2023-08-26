@@ -23,18 +23,20 @@ const BemSass = () => {
                     <img src={codigo_completo} alt="" style={{width:"700px"}}/>
                     </div>
                     <p className='blogContainer__p'>En la primera sección podemos ver como nombramos la clase de la etiqueta <strong>nav</strong> con el nombre <strong>NavComponent</strong>. Con esto haremos referencia al bloque principal y en la siguiente etiqueta <strong>a</strong> será nuestro <strong>elemento</strong> utilizando el nombre de clase <strong>NavComponent__contenedor.</strong> Estableciendo esto vamos a darle estilo a nuestro navbar en cuanto al color de fondo y el tamaño de fuente general dentro del mismo agregando lo siguiente en nuestro archivo <strong>scss</strong> de estilos del componente</p>
-                    <div className='d-flex gap-2'>
-                      <img src={bem} alt="" style={{width:"730px"}}/>
-                      <img src={menu} alt="" style={{width:"400px"}}/>
+                    <div className='d-flex gap-2 flex-column'>
+                      <img src={bem} alt="" style={{width:"630px"}}/>
+                      <img src={menu} alt="" style={{width:"600px"}}/>
                     </div>
-                    <p className='blogContainer__p'>Finalmente desde la etiqueta <strong>div</strong> de la linea 7 vamos tomar como nuevamente un bloque pripal y cada etiqueta <strong>a</strong> dentro de cada <strong>li</strong> serán  nuestros elementos. Adicionalmente para ejemplificar tomamos la primera etiqueta <strong>a</strong> que contiene el link del <strong>Home</strong> para agregarle un <strong>modificador</strong> para darle estilo por estar activa </p>
-                    <div className='d-flex gap-2'>
+                    <p className='blogContainer__p mt-4'>Finalmente desde la etiqueta <strong>div</strong> de la linea 7 vamos tomar como nuevamente un bloque pripal y cada etiqueta <strong>a</strong> dentro de cada <strong>li</strong> serán  nuestros elementos. Adicionalmente para ejemplificar tomamos la primera etiqueta <strong>a</strong> que contiene el link del <strong>Home</strong> para agregarle un <strong>modificador</strong> para darle estilo por estar activa </p>
+                    <div className='d-flex gap-2 flex-column'>
                       <img src={bloqueelemento} alt="" style={{width:"730px"}}/>
                       <img src={stylecomponent} alt="" style={{width:"400px"}}/>
                     </div>
                   </article>
-                  <p className='blogContainer__p'>El resultado final de nuestro navbar es el siguiente:</p>
+                  <p className='blogContainer__p' id="pFinal">El resultado final de nuestro navbar es el siguiente:</p>
+                  <div className='col-9 mb-5'>
                     <NavExample />
+                  </div>
             </div>
     </main>
   )

@@ -35,7 +35,7 @@ function App() {
           <Route path='/gitPages' element={<GitPage />} />
           <Route path='/console' element={<Console />} />
           <Route path='/reactVite' element={<ReactPage />} />
-          <Route path='/introBootrapt' element={<IntroBootstrapPages />} />
+          <Route path='/introBoostrap' element={<IntroBootstrapPages />} />
           <Route path='/atomicDesign' element={<AtomicDesign />} />
           <Route path='/atomicReactbootstrap' element={<EjemploAtomicRB />} />
           <Route path='/bemsass' element={<BemSass />} />

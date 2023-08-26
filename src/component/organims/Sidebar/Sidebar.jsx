@@ -27,17 +27,19 @@ const Sidebar = () => {
                     <Accordion.Item eventKey="1">
                         <Accordion.Header>Modulo 2</Accordion.Header>
                         <Accordion.Body>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Instalación de Bootstrap</Link>
+                            <Link to="/introBoostrap" className="list-group-item list-group-item-action bg-light">Instalación de Bootstrap</Link>
                             <Link to="#" className="list-group-item list-group-item-action bg-light">Extenciones de visual</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Atomic design ejemplificado con bootstrap</Link>
+                            <Link to="/atomicDesign" className="list-group-item list-group-item-action bg-light">Atomic Design</Link>
+                            <Link to="/atomicReactbootstrap" className="list-group-item list-group-item-action bg-light">Atomic design ejemplificado con bootstrap</Link>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                         <Accordion.Header>Modulo 3</Accordion.Header>
                         <Accordion.Body>
+                            <Link to="#" className="list-group-item list-group-item-action bg-light">Librerias utilizadas</Link>
                             <Link to="#" className="list-group-item list-group-item-action bg-light">Sass</Link>
-                            <Link to="/bemsass" className="list-group-item list-group-item-action bg-light">Sass + Bemm</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Menu 3</Link>
+                            <Link to="#" className="list-group-item list-group-item-action bg-light">BEM</Link>
+                            <Link to="/bemsass" className="list-group-item list-group-item-action bg-light">Ejemplo de Sass + BEM</Link>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
