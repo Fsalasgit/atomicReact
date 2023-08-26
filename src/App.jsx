@@ -19,6 +19,7 @@ import BemSass from './pages/BemSass';
 import EjemploAtomicRB from './pages/EjemploAtomicRB';
 import Extensiones from './pages/Extensiones';
 import Librerias from './pages/Librerias';
+import SassPage from './pages/SassPage';
 
 function App() {
   const location = useLocation();
@@ -43,6 +44,7 @@ function App() {
           <Route path='/bemsass' element={<BemSass />} />
           <Route path='/extensiones' element={<Extensiones />} />
           <Route path='/librerias' element={<Librerias />} />
+          <Route path='/Sass' element={<SassPage />} />
         </Routes>
         </div>
       )
