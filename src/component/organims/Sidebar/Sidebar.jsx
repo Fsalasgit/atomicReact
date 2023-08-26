@@ -38,7 +38,7 @@ const Sidebar = () => {
                         <Accordion.Body>
                             <Link to="/librerias" className="list-group-item list-group-item-action bg-light">Librerias utilizadas</Link>
                             <Link to="/Sass" className="list-group-item list-group-item-action bg-light">Sass</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">BEM</Link>
+                            <Link to="/BEM" className="list-group-item list-group-item-action bg-light">BEM</Link>
                             <Link to="/bemsass" className="list-group-item list-group-item-action bg-light">Ejemplo de Sass + BEM</Link>
                         </Accordion.Body>
                     </Accordion.Item>
