@@ -4,6 +4,8 @@ import SpinnerExample from '../component/exampleAtomicComponents/atoms/SpinnerEx
 import ButtonSpinner from '../component/exampleAtomicComponents/molecules/ButtonSpinner'
 import FormEmail from '../component/exampleAtomicComponents/molecules/FormEmail'
 import Pagination from '../component/exampleAtomicComponents/molecules/paginationMolecules'
+import Registroganism from '../component/exampleAtomicComponents/organism/Registroganism'
+import NavbarOrganism from '../component/exampleAtomicComponents/organism/NavbarOrganism'
 
 const EjemploAtomicRB = () => {
   return (
@@ -45,15 +47,13 @@ const EjemploAtomicRB = () => {
                     <h2 className='blogContainer__ArticleTitle' fixed="top">organismo</h2>
                     <p className='blogContainer__p'>Al juntar moleculas armamos organismos</p>
                     
-                    <h3 className='mb-4'>Ejemplo boton mas spinner</h3>
+                    <h3 className='mb-4'>Ejemplo organismo registro</h3>
 
-                    <ButtonSpinner />
-                    <h3 className='mb-4'>Ejemplo formulario</h3>
-    
-                    <FormEmail />
-                    <h3 className='mb-4'>Ejemplo Paginacion</h3>
+                    <Registroganism />
+                   
+                    <h3 className='m-5'>Ejemplo navbar</h3>
 
-                    <Pagination />
+                    <NavbarOrganism />
                                
                     
                 </article>
