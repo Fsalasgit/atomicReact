@@ -28,7 +28,7 @@ const Sidebar = () => {
                         <Accordion.Header>Modulo 2</Accordion.Header>
                         <Accordion.Body>
                             <Link to="/introBoostrap" className="list-group-item list-group-item-action bg-light">Instalación de Bootstrap</Link>
-                            <Link to="#" className="list-group-item list-group-item-action bg-light">Extenciones de visual</Link>
+                            <Link to="/extensiones" className="list-group-item list-group-item-action bg-light">Extenciones de visual</Link>
                             <Link to="/atomicDesign" className="list-group-item list-group-item-action bg-light">Atomic Design</Link>
                             <Link to="/atomicReactbootstrap" className="list-group-item list-group-item-action bg-light">Atomic design ejemplificado con bootstrap</Link>
                         </Accordion.Body>

@@ -17,6 +17,7 @@ import IntroBootstrapPages from './pages/IntroBootstrapPages';
 import AtomicDesign from './pages/AtomicDesign';
 import BemSass from './pages/BemSass';
 import EjemploAtomicRB from './pages/EjemploAtomicRB';
+import Extensiones from './pages/Extensiones';
 
 function App() {
   const location = useLocation();
@@ -39,6 +40,7 @@ function App() {
           <Route path='/atomicDesign' element={<AtomicDesign />} />
           <Route path='/atomicReactbootstrap' element={<EjemploAtomicRB />} />
           <Route path='/bemsass' element={<BemSass />} />
+          <Route path='/extensiones' element={<Extensiones />} />
         </Routes>
         </div>
       )
