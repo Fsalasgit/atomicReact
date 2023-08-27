@@ -5,7 +5,7 @@ import MoleculesPages from './pages/MoleculesPages';
 import OrganimsPages from './pages/OrganimsPages';
 import Home from './pages/Home';
 import './sass/main.scss'
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, useParams } from 'react-router-dom';
 import TemplatePage from './pages/TemplatePage';
 import NavbarSite from './component/webComponents/NavbarSite';
 import FooterSite from './component/webComponents/footerSite';
@@ -24,10 +24,36 @@ import BemPage from './pages/BemPage';
 import Newsidebar from './component/organims/Sidebar/Newsidebar';
 
 function App() {
+  const [isModulo1Open, setModulo1Open] = useState(false);
+  const [isModulo2Open, setModulo2Open] = useState(false);
+  const [isModulo3Open, setModulo3Open] = useState(false);
+
+    const toggleModulo1 = () => {
+      setModulo1Open(true);
+      setModulo2Open(false);
+      setModulo3Open(false);
+    };
+
+  const toggleModulo2 = () => {
+    setModulo1Open(false);
+    setModulo2Open(true);
+    setModulo3Open(false);
+  };
+
+  const toggleModulo3 = () => {
+    setModulo1Open(false);
+    setModulo2Open(false);
+    setModulo3Open(true);
+  };
   const location = useLocation();
   return (
     <>
-      <NavbarSite />
+      <NavbarSite 
+              toggleModulo1={toggleModulo1}
+              toggleModulo2={toggleModulo2}
+              toggleModulo3={toggleModulo3}
+              location={location}
+      />
       {location.pathname === '/' ?
       (<Routes>
       <Route path='/' element={<Home />} />
@@ -35,19 +61,27 @@ function App() {
       ) :
       (
         <div className="d-flex" id="wrapper">
-                <Newsidebar />
+                <Newsidebar 
+                  isModulo1Open={isModulo1Open}
+                  isModulo2Open={isModulo2Open}
+                  isModulo3Open={isModulo3Open}
+                  toggleModulo1={toggleModulo1}
+                  toggleModulo2={toggleModulo2}
+                  toggleModulo3={toggleModulo3}
+                  location={location}
+                />
         <Routes>
-          <Route path='/gitPages' element={<GitPage />} />
-          <Route path='/console' element={<Console />} />
-          <Route path='/reactVite' element={<ReactPage />} />
-          <Route path='/introBoostrap' element={<IntroBootstrapPages />} />
-          <Route path='/atomicDesign' element={<AtomicDesign />} />
-          <Route path='/atomicReactbootstrap' element={<EjemploAtomicRB />} />
-          <Route path='/bemsass' element={<BemSass />} />
-          <Route path='/extensiones' element={<Extensiones />} />
-          <Route path='/librerias' element={<Librerias />} />
-          <Route path='/Sass' element={<SassPage />} />
-          <Route path='/BEM' element={<BemPage />} />
+          <Route path='/modulo1/gitPages' element={<GitPage />} />
+          <Route path='/modulo1/console' element={<Console />} />
+          <Route path='/modulo1/reactVite' element={<ReactPage />} />
+          <Route path='/modulo2/introBoostrap' element={<IntroBootstrapPages />} />
+          <Route path='/modulo2/atomicDesign' element={<AtomicDesign />} />
+          <Route path='/modulo2/atomicReactbootstrap' element={<EjemploAtomicRB />} />
+          <Route path='/modulo3/bemsass' element={<BemSass />} />
+          <Route path='/modulo2/extensiones' element={<Extensiones />} />
+          <Route path='/modulo3/librerias' element={<Librerias />} />
+          <Route path='/modulo3/Sass' element={<SassPage />} />
+          <Route path='/modulo/BEM' element={<BemPage />} />
         </Routes>
         </div>
       )

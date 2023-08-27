@@ -24,7 +24,7 @@ const Console = () => {
                       </li>
                     </ul>
                 </article>
-                <article className="col-lg-11">
+                <article className="col-lg-11 mb-5">
                     <h2 className='blogContainer__ArticleTitle mt-3'>Los comandos mas útiles</h2>
                     <p className='blogContainer__p'>Estos son los comandos para navegar y abrir Visual Studio Code desde la consola. Simplifica tu proyecto dominando estas herramientas fundamentales para el desarrollo eficiente.</p>
                     <div className="col-6 mb-3">
