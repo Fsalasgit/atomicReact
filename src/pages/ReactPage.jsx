@@ -34,7 +34,7 @@ const ReactPage = () => {
                     <p className='blogContainer__p-small'>si no sabes utilizar la consala t recomiendo leer el siguiente post <a href="#">Link consola</a></p> 
 
                 </article>
-                <article className="col-12">
+                <article className="col-12 mb-5">
                     <h2 className='blogContainer__ArticleTitle'>¿Que pasa si descargo un proyecto desde github?</h2>
                     <p className='blogContainer__p'>En el caso de bajar un proyecto, es necesario luego de clonar el repositorio verificar los siguientes pasos</p>
                     <ol className='orderlist__container'>

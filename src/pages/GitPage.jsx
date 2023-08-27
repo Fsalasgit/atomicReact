@@ -26,7 +26,7 @@ const GitPage = () => {
 
                     
                 </article>
-                <article className="col-12">
+                <article className="col-12 mb-5">
                     <h2 className='blogContainer__ArticleTitle'>Git comandos básicos</h2>
                     <p className='blogContainer__p'>En este bloque colocaremos los camandos que se deben tener en claro de git.</p>
                     <ComandosGit />

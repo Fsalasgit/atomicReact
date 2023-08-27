@@ -256,3 +256,9 @@
     --bs-accordion-active-color: #0c63e4;
     --bs-accordion-active-bg: #e7f1ff;
   }
+
+
+  .nav-link.active {
+    font-weight: bold; /* Cambiar el estilo del enlace activo */
+    /* Otros estilos que desees aplicar */
+  }
