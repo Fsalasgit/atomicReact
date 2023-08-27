@@ -38,7 +38,7 @@ function Newsidebar() {
                                 </a>
                                 <div className="collapse" id="collapseLayouts2" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                     <nav className="sb-sidenav-menu-nested nav">
-                                        <Link className="nav-link" to="/introBoostrap">Git y Github</Link>
+                                        <Link className="nav-link" to="/introBoostrap">Intro atomic React</Link>
                                         <Link className="nav-link" to="/extensiones">Extenciones de visual</Link>
                                         <Link className="nav-link" to="/atomicDesign">Atomic Design</Link>
                                         <Link className="nav-link" to="/atomicReactbootstrap">Atomic design ejemplificado con bootstrap</Link>
