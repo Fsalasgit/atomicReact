@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './newsidebar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import { FaAngleDown } from 'react-icons/fa';
+import { FaAngleDown, FaColumns, FaBookOpen } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
 
 
@@ -34,7 +34,7 @@ function Newsidebar({ isModulo1Open,isModulo2Open,isModulo3Open, toggleModulo1, 
                             <div className="nav">
                                 <div className="sb-sidenav-menu-heading">Contenido</div>
                                 <a className={`nav-link ${isModuloActive[1] === 'modulo1' ? 'active' : ''} collapsed`} href="#collapseLayouts" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts" onClick={toggleModulo1}>
-                                    <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
+                                    <div className="sb-nav-link-icon"><FaColumns /></div>
                                     Modulo 1
                                     <div className="sb-sidenav-collapse-arrow">
                                         <FaAngleDown />
@@ -49,7 +49,7 @@ function Newsidebar({ isModulo1Open,isModulo2Open,isModulo3Open, toggleModulo1, 
                                 </div>
 
                                 <a className={`nav-link ${isModuloActive[1] === 'modulo2' ? 'active' : ''} collapsed`} href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts2" aria-expanded="false" aria-controls="collapseLayouts" onClick={toggleModulo2}>
-                                    <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
+                                    <div className="sb-nav-link-icon"><FaColumns /></div>
                                     Modulo 2
                                     <div className="sb-sidenav-collapse-arrow">
                                         <FaAngleDown />
@@ -65,7 +65,7 @@ function Newsidebar({ isModulo1Open,isModulo2Open,isModulo3Open, toggleModulo1, 
                                 </div>
 
                                 <a className={`nav-link ${isModuloActive[1] === 'modulo3' ? 'active' : ''} collapsed`} href="" data-bs-toggle="collapse" data-bs-target="#collapseLayouts3" aria-expanded="false" aria-controls="collapseLayouts" onClick={toggleModulo3}>
-                                    <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
+                                    <div className="sb-nav-link-icon"><FaColumns /></div>
                                     Modulo 3
                                     <div className="sb-sidenav-collapse-arrow">
                                         <FaAngleDown />
