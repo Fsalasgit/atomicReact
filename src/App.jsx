@@ -81,7 +81,7 @@ function App() {
           <Route path='/modulo2/extensiones' element={<Extensiones />} />
           <Route path='/modulo3/librerias' element={<Librerias />} />
           <Route path='/modulo3/Sass' element={<SassPage />} />
-          <Route path='/modulo/BEM' element={<BemPage />} />
+          <Route path='/modulo3/BEM' element={<BemPage />} />
         </Routes>
         </div>
       )
