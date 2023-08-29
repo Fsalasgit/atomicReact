@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <div className="container-fluid portadaAtomic">
         <div className="row d-flex">
-            <div className="col-6 text-white aling-items-center">
+            <div className="col-12 col-md-6 text-white aling-items-center">
                 <h1 className='portadaAtomic__tittle'>ATOMIC REACT</h1>
                 <p className='portadaAtomic__p'><strong>Atomic react</strong> es un proyecto creado por y para alumnos de la comisión 49 i de rolling code.</p>
                 <p className='portadaAtomic__p'>La intención de este proyecto es tener una herramienta de inclusión para poder tener todos una participación importante en el proyecto final.</p>

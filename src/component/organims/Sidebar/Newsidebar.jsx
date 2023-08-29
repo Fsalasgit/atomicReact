@@ -7,7 +7,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 
 
-function Newsidebar({ isModulo1Open,isModulo2Open,isModulo3Open, toggleModulo1, toggleModulo2, toggleModulo3, location }) {
+function Newsidebar({ isModulo1Open,isModulo2Open,isModulo3Open, toggleModulo1, toggleModulo2, toggleModulo3, location, isSidebarOpen, toggleSidebar }) {
     
     const isModuloActive = location.pathname.split('/');
     useEffect(() => {
@@ -25,9 +25,17 @@ function Newsidebar({ isModulo1Open,isModulo2Open,isModulo3Open, toggleModulo1, 
         }
       }
     }, [isModuloActive[1]])
+
+    useEffect(() => {
+        
+        if (window.innerWidth <= 767){
+            toggleSidebar ()
+        }
+    }, [])
+    
     
     return (
-        <div id="layoutSidenav">
+        <div id="layoutSidenav" className={isSidebarOpen ? '' : 'sb-sidenav-toggled'}>
                 <div id="layoutSidenav_nav">
                     <nav className="sb-sidenav accordion sb-sidenav-dark"  id="sidenavAccordion">
                         <div className="sb-sidenav-menu">

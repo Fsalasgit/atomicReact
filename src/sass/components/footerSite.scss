@@ -3,6 +3,7 @@
     color: white;
     padding: 1rem 0 0.2rem 2rem;
     position: relative;
+    z-index: 5;
     bottom: 0;
 }
 
@@ -19,3 +20,9 @@
 .footer__link:hover{
     color: red;
 }
+
+@media (max-width: 550px) {
+    .hide {
+        display: none;
+    }
+  }
