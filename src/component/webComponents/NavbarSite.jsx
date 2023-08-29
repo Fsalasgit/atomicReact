@@ -13,7 +13,7 @@ const NavbarSite = ({ toggleModulo1, toggleModulo2, toggleModulo3, toggleSidebar
       <Navbar data-bs-theme="dark" className='navbarSite ps-3 pe-4' sticky="top">
               <div className="marca d-flex gap-3">
                 {shouldShowButton && (
-                      <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!" onClick={toggleSidebar}><FaBars /></button>
+                      <button className="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!" onClick={toggleSidebar}><FaBars /></button>
                     )}
                 
                 <Navbar.Brand href="/" className='navbarSite__logo'> AtomicReact</Navbar.Brand>
