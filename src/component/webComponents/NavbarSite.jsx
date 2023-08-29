@@ -1,24 +1,29 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
-import React from 'react'
+import { FaBars } from 'react-icons/fa';
 
-const NavbarSite = ({ toggleModulo1, toggleModulo2, toggleModulo3 }) => {
+const NavbarSite = ({ toggleModulo1, toggleModulo2, toggleModulo3, toggleSidebar }) => {
   const isModuloActive = location.pathname.split('/');
   return (
     <>
-      <Navbar data-bs-theme="dark" className='navbarSite' sticky="top">
-          <Container className='navbarSite__container'>
-              <Navbar.Brand href="/" className='navbarSite__logo'> ARLogo</Navbar.Brand>
+      <Navbar data-bs-theme="dark" className='navbarSite ps-3 pe-4' sticky="top">
+      <div className="marca d-flex gap-3">
+                <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!" onClick={toggleSidebar}><FaBars /></button>
+                <Navbar.Brand href="/" className='navbarSite__logo'> AtomicReact</Navbar.Brand>
+              </div>
               <Nav className="ms-auto navbarSite__nav">
                 <NavLink to="/" className="nav-link link">Home</NavLink>
-                <NavLink to="/modulo1/gitPages" className={`nav-link link ${isModuloActive[1] === 'modulo1' ? 'active' : ''}`}  onClick={toggleModulo1}>Modulo I</NavLink>
-                <NavLink to="/modulo2/introBoostrap" className={`nav-link link ${isModuloActive[1] === 'modulo2' ? 'active' : ''}`} onClick={toggleModulo2}>Modulo II</NavLink>
-                <NavLink to="/modulo3/librerias" className={`nav-link link ${isModuloActive[1] === 'modulo3' ? 'active' : ''}`} onClick={toggleModulo3}>Modulo III</NavLink>
+                <NavLink to="/modulo1/gitPages" className={`hide nav-link link ${isModuloActive[1] === 'modulo1' ? 'active' : ''}`}  onClick={toggleModulo1}>Modulo I</NavLink>
+                <NavLink to="/modulo2/introBoostrap" className={`hide nav-link link ${isModuloActive[1] === 'modulo2' ? 'active' : ''}`} onClick={toggleModulo2}>Modulo II</NavLink>
+                <NavLink to="/modulo3/librerias" className={`hide nav-link link ${isModuloActive[1] === 'modulo3' ? 'active' : ''}`} onClick={toggleModulo3}>Modulo III</NavLink>
                   
               </Nav>
-          </Container>
+          {/* <Container className='navbarSite__container'>
+
+          </Container> */}
       </Navbar>
     
     

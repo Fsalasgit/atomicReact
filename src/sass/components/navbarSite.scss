@@ -2,7 +2,7 @@
     background-color: rgba(0, 0, 0, 0.867);
     position: relative;
     z-index: 200;
-
+    width: 100%;
 }
 
 .navbarSite__link{
@@ -33,3 +33,7 @@
     font-size: 1rem;
 }
 
+
+#sidebarToggle {
+    color: rgba(255, 255, 255, 0.5);
+  }

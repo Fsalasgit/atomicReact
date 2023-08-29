@@ -10,6 +10,7 @@
     display: flex;
     width: 300px;
     font-size: 0.9rem;
+    transition: margin-left 0.3s ease; /* Agrega una transición suave */
   }
   /* #layoutSidenav #layoutSidenav_nav {
     /* flex-basis: 225px; */
@@ -109,6 +110,11 @@
   flex-direction: column;
   height: 100%;
   flex-wrap: nowrap;
+  transition: margin-left 1s ease;
+}
+
+.sb-sidenav-toggled {
+  margin-left: -250px; /* Cambia el valor según el ancho de tu sidebar */
 }
 .sb-sidenav-menu-heading {
     color: #dddddd;
@@ -262,3 +268,18 @@
     font-weight: bold; /* Cambiar el estilo del enlace activo */
     /* Otros estilos que desees aplicar */
   }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  #layoutSidenav {
+    width: 100%; /* Inicialmente oculto */
+    transition: width 0.3s ease; /* Transición suave */
+    position: absolute;
+    min-height: 145vh;
+    z-index: 4;
+  }
+
+  .sb-sidenav-toggled {
+    width: 0; /* Ocultar el sidebar */
+  }
+}

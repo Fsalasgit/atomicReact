@@ -45,6 +45,12 @@ function App() {
     setModulo2Open(false);
     setModulo3Open(true);
   };
+
+  const [isSidebarOpen, setSidebarOpen] = useState(true); // Abierto por defecto
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
   const location = useLocation();
   return (
     <>
@@ -53,6 +59,7 @@ function App() {
               toggleModulo2={toggleModulo2}
               toggleModulo3={toggleModulo3}
               location={location}
+              toggleSidebar={toggleSidebar} // Pasamos la función como prop
       />
       {location.pathname === '/' ?
       (<Routes>
@@ -69,6 +76,8 @@ function App() {
                   toggleModulo2={toggleModulo2}
                   toggleModulo3={toggleModulo3}
                   location={location}
+                  isSidebarOpen={isSidebarOpen}
+                  toggleSidebar={toggleSidebar}
                 />
         <Routes>
           <Route path='/modulo1/gitPages' element={<GitPage />} />
