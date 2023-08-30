@@ -40,9 +40,9 @@ const SassPage = () => {
                     <p className='blogContainer__p'>
                         En css cuando queremos apuntar a un elemento contenido dentro de otro usamos la sintaxis:
                     </p>
-                    <img src={sinanidamiento} alt="codigo sin anidamiento" style={{width:"600px"}}/>
+                    <img src={sinanidamiento} alt="codigo sin anidamiento" className='img-fluid'/>
                     <p className='blogContainer__p'>Pero es evidente que <strong>visualmente</strong> sería mejor representar dicha sintaxis de forma <strong>jerárquica</strong>.</p>
-                    <img src={anidamiento} alt="codigo anidado" style={{width:"600px"}}/>
+                    <img src={anidamiento} alt="codigo anidado" className='img-fluid'/>
                 </article>                    
                 <article className="col-lg-11">
                     <h2 className='blogContainer__ArticleTitle mt-5'>
@@ -51,7 +51,7 @@ const SassPage = () => {
                     <p className='blogContainer__p'>
                         De nuevo para evitar repetir código podríamos tener un selector que repite muchas propiedades relacionadas con la fuente. Podemos ahorrar código del siguiente modo:
                     </p>
-                    <img src={propiedades} alt="codigo sin anidamiento" style={{width:"600px"}}/>
+                    <img src={propiedades} alt="codigo sin anidamiento"  className='img-fluid'/>
                 </article>                    
                 <article className="col-lg-11">
                     <h2 className='blogContainer__ArticleTitle mt-5'>
@@ -60,7 +60,7 @@ const SassPage = () => {
                     <p className='blogContainer__p'>
                         Este símbolo se usa para hacer referencia al nombre del selector dentro de su propio bloque, para así no tener que escribirlo continuamente. Un ejemplo con paseudoclases sería:
                     </p>
-                    <img src={ampersand} alt="codigo sin anidamiento" style={{width:"600px"}}/>
+                    <img src={ampersand} alt="codigo sin anidamiento" className='img-fluid'/>
                 </article>
                 <article className="col-lg-11">
                     <p className='blogContainer__p mt-4 mb-5'>
